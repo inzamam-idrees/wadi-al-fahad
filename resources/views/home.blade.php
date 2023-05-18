@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Medicio Bootstrap Template - Index</title>
+  <title>Wadi Al Fahid Tahir</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,14 +28,6 @@
 
   <!-- Template Main CSS File -->
   <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Medicio
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/medicio-free-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -56,18 +48,18 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>
+      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
+      <h1 class="logo me-auto"><a href="{{ url('/') }}">Wadi Al Fahid Tahir</a></h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto " href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto" href="#departments">Departments</a></li>
-          <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <!-- <li><a class="nav-link scrollto" href="#services">Services</a></li> -->
+          <!-- <li><a class="nav-link scrollto" href="#departments">Departments</a></li> -->
+          <!-- <li><a class="nav-link scrollto" href="#doctors">Doctors</a></li> -->
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -83,13 +75,13 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
-      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Appointment</a>
+      <a href="#appointment" class="appointment-btn scrollto"><span class="d-none d-md-inline">Make an</span> Request</a>
 
     </div>
   </header><!-- End Header -->
@@ -105,7 +97,7 @@
         <!-- Slide 1 -->
         <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
           <div class="container">
-            <h2>Welcome to <span>Medicio</span></h2>
+            <h2>Welcome to <span>Wadi Al Fahid Tahir</span></h2>
             <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
             <a href="#about" class="btn-get-started scrollto">Read More</a>
           </div>
@@ -193,7 +185,7 @@
         <div class="text-center">
           <h3>In an emergency? Need help now?</h3>
           <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <a class="cta-btn scrollto" href="#appointment">Make an Make an Appointment</a>
+          <a class="cta-btn scrollto" href="#appointment">Make an Request</a>
         </div>
 
       </div>
@@ -235,7 +227,7 @@
     </section><!-- End About Us Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    <section id="counts" class="counts d-none">
       <div class="container" data-aos="fade-up">
 
         <div class="row no-gutters">
@@ -283,7 +275,7 @@
     </section><!-- End Counts Section -->
 
     <!-- ======= Features Section ======= -->
-    <section id="features" class="features">
+    <section id="features" class="features d-none">
       <div class="container" data-aos="fade-up">
 
         <div class="row">
@@ -316,7 +308,7 @@
     </section><!-- End Features Section -->
 
     <!-- ======= Services Section ======= -->
-    <section id="services" class="services services">
+    <section id="services" class="services d-none">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -365,7 +357,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Make an Appointment</h2>
+          <h2>Make an Request</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 
@@ -395,10 +387,10 @@
             </div>
             <div class="col-md-4 form-group mt-3">
               <select name="city" id="city" class="form-select">
-                <option value="">Select City</option>
-                <option value="City 1">City 1</option>
-                <option value="City 2">City 2</option>
-                <option value="City 3">City 3</option>
+                <option value="" disabled>Select City</option>
+                @foreach($cities as $city)
+                <option value="{{$city->id}}">{{$city->name}}</option>
+                @endforeach
               </select>
             </div>
           </div>
@@ -409,16 +401,16 @@
           <div class="my-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+            <div class="sent-message">Your request has been sent successfully. Thank you!</div>
           </div>
-          <div class="text-center"><button type="submit">Make an Appointment</button></div>
+          <div class="text-center"><button type="submit">Submit Request</button></div>
         </form>
 
       </div>
     </section><!-- End Appointment Section -->
 
     <!-- ======= Departments Section ======= -->
-    <section id="departments" class="departments">
+    <section id="departments" class="departments d-none">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -489,7 +481,7 @@
     </section><!-- End Departments Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
+    <section id="testimonials" class="testimonials d-none">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -573,7 +565,7 @@
     </section><!-- End Testimonials Section -->
 
     <!-- ======= Doctors Section ======= -->
-    <section id="doctors" class="doctors section-bg">
+    <section id="doctors" class="doctors section-bg d-none">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -687,7 +679,7 @@
     </section><!-- End Gallery Section -->
 
     <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing">
+    <section id="pricing" class="pricing d-none">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -772,7 +764,7 @@
     </section><!-- End Pricing Section -->
 
     <!-- ======= Frequently Asked Questioins Section ======= -->
-    <section id="faq" class="faq section-bg">
+    <section id="faq" class="faq section-bg d-none">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
@@ -926,9 +918,9 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          <div class="col-lg-4 col-md-6">
             <div class="footer-info">
-              <h3>Medicio</h3>
+              <h3>Wadi Al Fahid Tahir</h3>
               <p>
                 A108 Adam Street <br>
                 NY 535022, USA<br><br>
@@ -945,18 +937,18 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-md-6 footer-links">
+          <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li> -->
               <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
+          <!-- <div class="col-lg-3 col-md-6 footer-links">
             <h4>Our Services</h4>
             <ul>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
@@ -965,7 +957,7 @@
               <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
             </ul>
-          </div>
+          </div> -->
 
           <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
@@ -982,10 +974,10 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Medicio</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Wadi Al Fahid Tahir</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        Developed by <a href="#">Inzamam</a>
+        Developed by <a href="#">Inzamam Idrees</a>
       </div>
     </div>
   </footer><!-- End Footer -->
