@@ -48,7 +48,7 @@
   <header id="header" class="fixed-top">
     <div class="container d-flex align-items-center">
 
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a> -->
+      <!-- <a href="index.html" class="logo me-auto"><img src="{{asset('assets/img/logo.png')}}" alt=""></a> -->
       <!-- Uncomment below if you prefer to use an image logo -->
       <h1 class="logo me-auto"><a href="{{ url('/') }}">Wadi Al Fahid Tahir</a></h1>
 
@@ -95,7 +95,7 @@
       <div class="carousel-inner" role="listbox">
 
         <!-- Slide 1 -->
-        <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpg)">
+        <div class="carousel-item active" style="background-image: url({{ asset('assets/img/slide/banner1.jpeg') }})">
           <div class="container">
             <h2>Welcome to <span>Wadi Al Fahid Tahir</span></h2>
             <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
@@ -104,7 +104,7 @@
         </div>
 
         <!-- Slide 2 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpg)">
+        <div class="carousel-item" style="background-image: url({{ asset('assets/img/slide/banner2.jpg') }})">
           <div class="container">
             <h2>Lorem Ipsum Dolor</h2>
             <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
@@ -113,7 +113,7 @@
         </div>
 
         <!-- Slide 3 -->
-        <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpg)">
+        <div class="carousel-item" style="background-image: url({{ asset('assets/img/slide/banner3.jpg') }})">
           <div class="container">
             <h2>Sequi ea ut et est quaerat</h2>
             <p>Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel.</p>
@@ -202,7 +202,7 @@
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="{{ asset('assets/img/about.jpg') }}" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
@@ -301,7 +301,7 @@
               <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
             </div>
           </div>
-          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("assets/img/features.jpg");' data-aos="zoom-in"></div>
+          <div class="image col-lg-6 order-1 order-lg-2" style='background-image: url("public/assets/img/features.jpg");' data-aos="zoom-in"></div>
         </div>
 
       </div>
@@ -663,14 +663,14 @@
 
         <div class="gallery-slider swiper">
           <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-1.jpg"><img src="assets/img/gallery/gallery-1.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-2.jpg"><img src="assets/img/gallery/gallery-2.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-3.jpg"><img src="assets/img/gallery/gallery-3.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-4.jpg"><img src="assets/img/gallery/gallery-4.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-5.jpg"><img src="assets/img/gallery/gallery-5.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-6.jpg"><img src="assets/img/gallery/gallery-6.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-7.jpg"><img src="assets/img/gallery/gallery-7.jpg" class="img-fluid" alt=""></a></div>
-            <div class="swiper-slide"><a class="gallery-lightbox" href="assets/img/gallery/gallery-8.jpg"><img src="assets/img/gallery/gallery-8.jpg" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="{{ asset('assets/img/gallery/gallery-1.jpg') }}"><img src="{{ asset('assets/img/gallery/gallery-1.jpg') }}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="{{ asset('assets/img/gallery/gallery-2.jpg') }}"><img src="{{ asset('assets/img/gallery/gallery-2.jpg') }}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="{{ asset('assets/img/gallery/gallery-3.jpg') }}"><img src="{{ asset('assets/img/gallery/gallery-3.jpg') }}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="{{ asset('assets/img/gallery/gallery-4.jpg') }}"><img src="{{ asset('assets/img/gallery/gallery-4.jpg') }}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="{{ asset('assets/img/gallery/gallery-5.jpg') }}"><img src="{{ asset('assets/img/gallery/gallery-5.jpg') }}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="{{ asset('assets/img/gallery/gallery-6.jpg') }}"><img src="{{ asset('assets/img/gallery/gallery-6.jpg') }}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="{{ asset('assets/img/gallery/gallery-7.jpg') }}"><img src="{{ asset('assets/img/gallery/gallery-7.jpg') }}" class="img-fluid" alt=""></a></div>
+            <div class="swiper-slide"><a class="gallery-lightbox" href="{{ asset('assets/img/gallery/gallery-8.jpg') }}"><img src="{{ asset('assets/img/gallery/gallery-8.jpg') }}" class="img-fluid" alt=""></a></div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
